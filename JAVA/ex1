@@ -1,0 +1,10 @@
+package com.ust.test;
+
+public class ContainsEx {
+	public static void main(String args[]){  
+		String name="Its always the small pieces that make the big picture";  
+		System.out.println(name.contains("always the small pieces"));  
+		System.out.println(name.contains("make"));  
+		System.out.println(name.contains("happy"));  
+		}
+}
