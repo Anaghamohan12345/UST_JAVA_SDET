@@ -8,7 +8,7 @@ public class ThreadExample1 implements Runnable{
 		Thread guruthread1=new Thread();
 		guruthread1.start();
 		try {
-			guruthread1.sleep(100);
+			guruthread1.sleep(1000);
 		}catch(InterruptedException e) {
 			e.printStackTrace();
 		}
