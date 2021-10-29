@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Sample1 {
 	public static  void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ustjavasdetb413\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ustjavasdetb411\\Downloads\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.navigate().to("http://www.google.com/");
 		d.findElement(By.name("csi"));
