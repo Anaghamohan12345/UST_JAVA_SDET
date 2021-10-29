@@ -8,13 +8,13 @@ public class SeleniumExample1 {
 	public static void main(String[] args) {
 	// TODO Auto-generated method stub
 	
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ustjavasdetb413\\Downloads\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ustjavasdetb411\\Downloads\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			
 			driver.get("http://demo.guru99.com/test/ajax.html");
 			
-			// Find the radio button for ìNoî using its ID and click on it
+			// Find the radio button for ‚ÄúNo‚Äù using its ID and click on it
 			driver.findElement(By.id("no")).click();
 				
 			//Click on Check Button
