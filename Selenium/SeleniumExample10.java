@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumExample10 {
 	public static void main(String[] args) throws NoAlertPresentException,InterruptedException  {									
-		   System.setProperty("webdriver.chrome.driver", "C:\\Users\\ustjavasdetb413\\Downloads\\chromedriver.exe");
+		   System.setProperty("webdriver.chrome.driver", "C:\\Users\\ustjavasdetb411\\Downloads\\chromedriver.exe");
 		  	WebDriver driver = new ChromeDriver();
 	
         
