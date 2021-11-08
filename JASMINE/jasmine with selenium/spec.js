@@ -11,7 +11,7 @@ describe('Selenium test case for login page', () => {
         await driver.get('https://accounts.lambdatest.com/login');
         await driver.getCurrentUrl().then((url) => {
             expect(url).toBe('https://accounts.lambdatest.com/login');
-            driver.findElement(By.name("email")).sendKeys("abcdgmail.com");
+            driver.findElement(By.name("email")).sendKeys("abcd@gmail.com");
             driver.findElement(By.name("password")).sendKeys("gmail.com");
         });
     });
